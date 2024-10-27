@@ -1,0 +1,213 @@
+/* Override theme default CSS */
+.jet-sticky-section div>a {
+	color: var(--ast-global-color-0) !important;
+}
+
+.jet-nav div>a {
+	color: var(--ast-global-color-0) !important;
+}
+
+#arena-scheduler-root {
+	display: contents !important;
+}
+
+/* Button */
+.app-button {
+	background: #26263e !important;
+	border: none !important;
+	color: #fff !important;
+	text-decoration: none !important;
+	padding: 8px 35px !important;
+}
+
+.app-button:hover {
+	background: #55558a !important;
+}
+
+.app-button:focus {
+	background: #55558a !important;
+}
+
+/* Dropdown button */
+.arena-select-wrapper .dropdown-toggle:empty::after {
+	float: right;
+	margin-top: 0px;
+}
+
+.arena-select-wrapper .dropdown-toggle::after {
+	float: right;
+	margin-top: 10px;
+}
+
+.slot-dropdown-toggle {
+	height: 40px;
+}
+
+/* Navigation */
+.arrow-button {
+	color: #26263e !important;
+	text-decoration: none !important;
+}
+
+.arrow-button:hover {
+	color: #55558a !important;
+	background-color: #fff !important;
+}
+
+.arrow-button:focus {
+	color: #55558a !important;
+	background-color: #fff !important;
+	border: none;
+}
+
+.add-comment-button:hover {
+	background-color: #fff;
+	border: none;
+}
+
+.add-comment-button:focus {
+	background-color: #fff;
+	border: none;
+}
+
+/* Tab */
+.arena-scheduler-tab .nav-item .nav-link {
+	color: #26263e !important;
+}
+
+.arena-scheduler-tab .nav-item .active {
+	background: #26263e !important;
+	color: #fff !important;
+}
+
+.arena-scheduler-tab .nav-item .nav-link:hover {
+	background-color: #fff !important;
+	color: #55558a !important;
+}
+
+/* Table */
+.table button svg {
+	color: #26263e;
+}
+
+/* .table button {
+	background: transparent;
+	border: none;
+	vertical-align: text-bottom;
+} */
+
+.table td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.week-element {
+	display: inline-block;
+}
+
+.loading {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 30px;
+}
+
+/* .arena-select-wrapper {
+	justify-content: center;
+	display: flex;
+} */
+
+.select-arena {
+	float: left;
+}
+
+.front-comment {
+	display: block;
+}
+
+.view-comment {
+	display: none;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 767.98px) {
+	table {
+		font-size: 10px;
+	}
+
+	table th {
+		font-weight: 500;
+	}
+
+	table tr {
+		font-weight: 500;
+	}
+
+	.week-element {
+		display: none;
+	}
+
+	.day-element {
+		display: none;
+	}
+
+	.front-comment {
+		display: none;
+	}
+
+	.view-comment {
+		display: block;
+	}
+
+	.view-comment button {
+		font-size: 12px;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media (min-width: 576px) {
+	.arena-select-wrapper {
+		display: block;
+	}
+
+	.slot-dropdown-toggle {
+		width: 50px;
+	}
+}
+
+@media (min-width: 768px) {
+	.arena-select-wrapper {
+		display: block;
+	}
+
+	.slot-dropdown-toggle {
+		width: 50px;
+	}
+}
+
+@media (min-width: 992px) {
+	.arena-select-wrapper {
+		display: block;
+	}
+
+	.slot-dropdown-toggle {
+		width: 50px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.arena-select-wrapper {
+		display: block;
+	}
+
+	.slot-dropdown-toggle {
+		width: 115px;
+	}
+}
+
+@media (min-width: 1400px) {
+	.slot-dropdown-toggle {
+		width: 115px;
+	}
+}

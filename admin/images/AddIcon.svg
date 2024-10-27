@@ -1,0 +1,8 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="1" y1="1.88521e-09" x2="1" y2="20" stroke="black" stroke-width="2"/>
+<line x1="19" y1="10" x2="19" y2="20" stroke="black" stroke-width="2"/>
+<line x1="20" y1="19" y2="19" stroke="black" stroke-width="2"/>
+<line x1="10" y1="1" y2="1" stroke="black" stroke-width="2"/>
+<path d="M10.1918 5.33334L10.1918 10.1919L10.1918 5.33334ZM10.1918 10.1919L10.1918 15.0505L10.1918 10.1919ZM10.1918 10.1919L5.33328 10.1919L10.1918 10.1919ZM10.1918 10.1919L15.0504 10.1919L10.1918 10.1919Z" fill="#FF0000"/>
+<path d="M10.1918 5.33334L10.1918 10.1919M10.1918 10.1919L10.1918 15.0505M10.1918 10.1919L5.33328 10.1919M10.1918 10.1919L15.0504 10.1919" stroke="black" stroke-width="2.66667" stroke-linecap="square" stroke-linejoin="round"/>
+</svg>

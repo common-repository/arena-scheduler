@@ -1,0 +1,242 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/* Set the default font family and background color for the admin area */
+body {
+	font-family: "Inter";
+	background-color: #f0f0f1;
+}
+
+/* Set the default font family for paragraphs */
+p {
+	font-family: "Inter";
+}
+
+/* Set the default font family for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Inter";
+}
+
+/* Remove padding from the left side of the admin content area */
+#wpcontent {
+	padding-left: 0px !important;
+}
+
+/* Set the background color for elements with the class 'bg-red' */
+.bg-red {
+	background-color: #8c1c13;
+}
+
+/* Style the heading inside the 'manage-arena' section */
+.manage-arena h3.wp-heading-inline {
+	font-size: 25px;
+	font-weight: 600;
+	padding: 8px;
+	margin: 0px;
+}
+
+/* Card styles */
+.manage-arena .card,
+.manage-arena .card-header {
+	border: none;
+	border-radius: 0px;
+}
+
+.manage-arena div.card a:hover {
+	color: #8d1c12 !important;
+	text-decoration: underline !important;
+}
+
+/* DataTable styles */
+.manage-arena .table {
+	border-collapse: collapse !important;
+}
+
+.manage-arena .table td,
+.manage-arena .table th {
+	padding: 0.3rem;
+	vertical-align: top;
+	border-top: solid #b4b4b4;
+}
+
+.manage-arena .table > :not(:first-child) {
+	border: none;
+}
+
+.manage-arena table thead tr th {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	--bs-table-bg: #8d1c12;
+	background-color: var(--bs-table-bg);
+	border: solid #b4b4b4;
+	border-collapse: collapse;
+}
+
+.manage-arena table tbody tr td {
+	font-size: 14px;
+	font-weight: 400;
+	border: 1px solid #b4b4b4 !important;
+	border-collapse: collapse !important;
+}
+
+.manage-arena table td {
+	text-align: center;
+}
+
+.manage-arena table td:nth-child(2) {
+	text-align: left;
+}
+
+.manage-arena .table-striped tbody tr:nth-of-type(odd) {
+	background-color: #dddddd;
+}
+
+.manage-arena .table-striped tbody tr:nth-of-type(even) {
+	background-color: #f0f0f1;
+}
+
+/* Action button styles */
+.manage-arena .action-button {
+	font-size: 14px;
+	font-weight: 600;
+	color: #000000;
+}
+
+.manage-arena table td button.update {
+	vertical-align: top;
+}
+
+/* Ensure select elements in WordPress core UI have a max width of 100% */
+.wp-core-ui select {
+	max-width: 100%;
+}
+
+/* Modal styles */
+.modal .control-label {
+	color: #000000;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.modal-close {
+	background-color: #000000 !important;
+	opacity: 9 !important;
+	padding: 0px !important;
+}
+
+.arena-action-modal .modal-content div.modal-header h4 {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: inherit;
+}
+
+.arena-action-modal .modal-content div.modal-header {
+	border-color: 1px #9f9f9f;
+}
+
+.arena-action-modal .modal-content div.modal-footer {
+	border: none;
+}
+
+.arena-action-modal .modal-content div.modal-footer .action-button {
+	color: #fff;
+	background: #8c1c13;
+	border-radius: 3px;
+	padding: 2px 40px;
+}
+
+.arena-action-modal .modal-content div.modal-footer .action-button:hover {
+	opacity: 0.8;
+}
+
+.arena-action-modal .action-remove {
+	color: #ff0000;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.arena-action-modal input[type="checkbox"],
+.arena-action-modal input[type="radio"] {
+	border: 2px solid #000000;
+	border-radius: 0px;
+	background: #fff;
+	color: #000;
+	clear: none;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 0;
+	height: 20px;
+	margin: -0.25rem 0.25rem 0 0;
+	outline: 0;
+	padding: 0 !important;
+	text-align: center;
+	vertical-align: middle;
+	width: 20px;
+	min-width: 1rem;
+	-webkit-appearance: none;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	transition: 0.05s border-color ease-in-out;
+}
+
+/* Ensure DataTables wrapper is displayed as block */
+div.dataTables_wrapper {
+	display: block;
+}
+
+/* Hide notices inside the 'manage-arena' section */
+section.manage-arena div.notice {
+	display: none;
+}
+
+/* Pagination styles */
+.manage-arena .pagination {
+	font-size: 12px;
+}
+
+.manage-arena .page-link {
+	color: #8c1c13;
+}
+
+.manage-arena .page-item.active .page-link {
+	background-color: #8c1c13;
+	border-color: #8c1c13;
+}
+
+/* Notice styles */
+.manage-arena .notice,
+.manage-arena div.error,
+.manage-arena div.updated {
+	width: 500px;
+}
+
+.manage-arena .fs-close {
+	margin-top: 3px;
+}
+
+/* Loader styles */
+#loader {
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 88888;
+}
+
+/* Validation styles */
+form .error {
+	font-size: 12px;
+	color: red;
+}
+
+/* Hide elements inside the 'wrap' section */
+section.wrap .error {
+	display: none;
+}
